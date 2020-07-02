@@ -41,7 +41,6 @@ foreach my $section (@sections) {
 		# populate the hash
 		$all_info{$section_name}->{$key} = $value;
 	}
-	print "section: $section_name\n";
 }
 
 # Format_version is not set for all formats
@@ -71,7 +70,7 @@ HERE
 
 foreach my $section_name (keys %all_info) {
 	foreach my $key (keys %{$all_info{$section_name}}) {
-		$xml_body .= qq[<key id="mediainfo.track.${section_name}.$key">$all_info{$section_name}->{$key}</key>\n]
+		$xml_body .= qq[    <key id="mediainfo.track.${section_name}.$key">$all_info{$section_name}->{$key}</key>\n]
 	}
 }
 
