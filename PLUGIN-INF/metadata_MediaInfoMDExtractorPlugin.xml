@@ -1,7 +1,7 @@
 <pl:metadata-config xmlns:pl="http://www.exlibrisgroup.com/Plugins/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
   <pl:pluginTypeName>MDExtractorPlugin</pl:pluginTypeName>
   <pl:deployName>TIB_MediaInfoMDExtractorPlugin</pl:deployName>
-  <pl:className>bin\media_info_extractor</pl:className>
+  <pl:className>bin\media_info_extractor.pl</pl:className>
   <pl:initParameters>
     <fr:x_form xmlns:fr="http://com/exlibris/digitool/common/forms/xmlbeans">
     </fr:x_form>
